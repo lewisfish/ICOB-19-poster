@@ -1,0 +1,42 @@
+1. Introduction
+• Laser tissue ablation (LTA), is used in a variety of medical and cosmetic applications.  
+• These include skin rejuvenation, laser assisted drug delivery (LADD), treatment of acne scars and Rhinophyma, and coagulating scalpels.   
+• However, hard to predict crater depth and thermal injury to surrounding tissue
+• We use numerical models to help predict ablation depth and thermal injury
+
+2. Numerical model 
+• Our numerical model has three portions
+2.1 Monte Carlo radiation transport (MCRT)
+• MCRT is a technique that allows the modelling of light transport through turbid media.
+• Based upon interaction probabilities and random numbers.
+• MCRT is used to calculate heat deposition due to the laser
+
+2.2 Numerical heat model
+• Numerically solve the non-linear heat equation using a finite difference method, with MCRT providing the heat source.
+
+2.3 Numerical damage model
+• Arrhenius damage integral & physical damage model.
+• Arrhenius calculates thermal damage to tissue as degree of burn, i.e 1st, 2nd or 3rd
+• Physical damage model physically changes tissue, i.e ablation of tissue, boiling of water, and changes to optical and thermal properties
+
+• Background illustrates the overall numerical model
+A) Incident laser light
+B) MCRT
+C) Normal tissue
+D) Thermally damaged tissue
+E) Ablated Tissue
+
+3. Experiments
+• Validate simulation against experimental data
+• Experiment on porcine tissue ex-vivo
+• Ablation craters measured with Optical Coherence Tomography (OCT)
+• Numerical model run with same parameters as experiment
+
+4. Results
+• Fig 1 shows example of numerical output, and thermal damage
+• Fig 2 shows comparison with experimental results
+• Fig 3 shows 
+
+5. Conclusion
+• Have shown that numerical model matches experimental results for a determined Ta. 
+• In future the model could be used to help predict/optimise treatment outcomes for a variety of cosmetic and medical procedures
